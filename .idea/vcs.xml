@@ -3,6 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/2019/MRC/models/DuReader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019/MRC/models/QANet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019/MRC/models/QANet_dureader" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/2019/MRC/models/baseline/DuReader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019/MRC/models/transformer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019/MRC/models/transformer-xl" vcs="Git" />
   </component>
 </project>

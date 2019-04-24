@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf9850b-8437-4dbe-91c8-4bccb8e9192b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/basic_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/basic_rnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/match_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/match_layer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/pointer_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/pointer_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/rc_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/rc_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,95 +24,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="294">
-                <caret line="853" column="2" lean-forward="true" selection-start-line="853" selection-start-column="2" selection-end-line="853" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/screenshots/tensorboard.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/devset/zhidao.dev.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="238">
-              <caret line="17" column="56" lean-forward="true" selection-end-line="48" selection-end-column="26328" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/devset/search.dev.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="252">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/baseline/DuReader/data/demo/devset/search.dev.json">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/evaluate-v1.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state>
+              <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/trainset/zhidao.train.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="266">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/testset/zhidao.test.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="112">
-              <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/testset/search.test.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="98">
-              <caret line="7" column="115" selection-start-line="7" selection-start-column="115" selection-end-line="7" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/testset/zhidao.test.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="182">
-              <caret line="13" column="119" lean-forward="true" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.py">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="174" column="7" lean-forward="true" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="7" />
+            <state>
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
               <folding>
-                <element signature="e#612#650#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.sh">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="195" column="37" lean-forward="true" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/prepro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="315" column="35" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
+              <folding>
+                <element signature="e#44#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/download.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/demo.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -129,10 +139,22 @@
       <find>^p</find>
       <find />
       <find>preprocess</find>
+      <find>PointerNetDecoder</find>
+      <find>args</find>
+      <find>model</find>
+      <find>input_fn</find>
+      <find>from_ge</find>
+      <find>'''</find>
+      <find>train(</find>
+      <find>embedding</find>
+      <find>train</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;&quot;&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,10 +172,24 @@
         <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/dataset.py" />
         <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/evaluation_metric/common.py" />
         <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/README.md" />
-        <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/run.py" />
-        <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/rc_model.py" />
         <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/run.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/rc_model.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/prepro.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/train.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/hparams.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/model.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/data_load.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/utils.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/transformer/modules.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet_dureader/cli.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet_dureader/dataloader.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet_dureader/model.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet_dureader/layers.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/config.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/model.py" />
+        <option value="$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/layers.py" />
       </list>
     </option>
   </component>
@@ -203,7 +239,7 @@
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="MRC" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="baseline" type="462c0819:PsiDirectoryNode" />
+              <item name="QANet-SQUAD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
@@ -211,159 +247,8 @@
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="MRC" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="baseline" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="devset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="testset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="trainset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessed" type="462c0819:PsiDirectoryNode" />
-              <item name="testset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-              <item name="devset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-              <item name="testset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="vocab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="paddle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Language-and-Intelligent-Technology-Competition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Language-and-Intelligent-Technology-Competition" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="MRC" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="DuReader" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="QANet-SQUAD" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,7 +258,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -387,7 +272,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.train (1)">
+    <configuration name="download.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="Language-and-Intelligent-Technology-Competition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/MRC/models/transformer" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/MRC/models/transformer/download.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hparams" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-and-Intelligent-Technology-Competition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/MRC/models/transformer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/MRC/models/transformer/hparams.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Language-and-Intelligent-Technology-Competition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,8 +326,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-and-Intelligent-Technology-Competition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/MRC/models/transformer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/MRC/models/transformer/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Language-and-Intelligent-Technology-Competition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019/MRC/models/transformer-xl/tf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/MRC/models/transformer-xl/tf/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Bash.download.sh" />
+      <item itemvalue="Python.hparams" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.train (1)" />
+      <item itemvalue="Python.train" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.hparams" />
+        <item itemvalue="Bash.download.sh" />
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
@@ -441,7 +411,7 @@
     <frame x="36" y="-11" width="1885" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1439435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19500272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,272 +422,153 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21443737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29511678" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17940553" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32908705" />
-      <window_info anchor="right" id="Json Parser" weight="0.32971212" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JSON Viewer" order="3" weight="0.13959804" />
+      <window_info anchor="right" id="JSON Viewer" order="3" weight="0.36338946" />
+      <window_info anchor="right" id="Json Parser" order="4" weight="0.32971212" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2019/dataset/train_preprocessed/evaluation_metric/demo_data/ref.json">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/eval/1/iwslt2016_E01L5.85B0.00">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-546">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/dataset/train_preprocessed/evaluation_metric/bleu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/README.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2366">
-          <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/attn_gru_cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1070#1108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/dmn-details.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/dataset/train_preprocessed/evaluation_metric/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/dataset/train_preprocessed/evaluation_metric/mrc_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#85#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/dmn/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="159" column="40" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/md5sum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/download.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1045" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/vocab/vocab.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/match_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#853#876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/evaluation_metric/bleu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-606">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/evaluation_metric/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/evaluation_metric/mrc_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244">
-          <folding>
-            <element signature="e#85#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/rc_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1384">
-          <folding>
-            <element signature="e#612#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/evaluation_metric/rouge.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="36" selection-start-column="10" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/basic_rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#855#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/vocab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="1274">
-            <caret line="91" selection-start-line="91" selection-end-line="91" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/demo/devset/search.dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/results/dev.predicted.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="87" column="86" lean-forward="true" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/layers/pointer_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="41" />
-          <folding>
-            <element signature="e#919#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/demo/trainset/search.train.json">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/iwslt2016/segmented/eval.en.bpe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/run.py">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/iwslt2016/de-en/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="-246">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/dataset.py">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/fig/loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="99" column="76" lean-forward="true" selection-start-line="99" selection-start-column="76" selection-end-line="99" selection-end-column="76" />
+        <state relative-caret-position="3500">
+          <caret line="279" column="6" selection-start-line="279" selection-start-column="6" selection-end-line="279" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/download.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/fig/bleu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/fig/lr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/log/1/hparams">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="323" selection-end-column="691" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/data_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="123" column="44" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
           <folding>
-            <element signature="e#839#850#0" expanded="true" />
+            <element signature="e#242#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/tensorflow/rc_model.py">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="350" column="75" selection-start-line="350" selection-start-column="75" selection-end-line="350" selection-end-column="75" />
+        <state relative-caret-position="378">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
-            <element signature="e#1079#1088#0" expanded="true" />
+            <element signature="e#150#164#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/prepro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+          <folding>
+            <element signature="e#185#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/multi-bleu.perl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#171#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer-xl/pytorch/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer-xl/pytorch/mem_transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/transformer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -725,119 +576,210 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="224">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/trainset/search.train.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="392">
-          <caret line="28" column="69" selection-end-line="122" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/trainset/zhidao.train.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="238">
-          <caret line="17" column="86" lean-forward="true" selection-end-line="139" selection-end-column="4755" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/devset/zhidao.dev.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="196">
-          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/devset/search.dev.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="210">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/testset/search.test.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="224">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/devset/zhidao.dev.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="238">
-          <caret line="17" column="56" lean-forward="true" selection-end-line="48" selection-end-column="26328" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/testset/search.test.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="98">
-          <caret line="7" column="115" selection-start-line="7" selection-start-column="115" selection-end-line="7" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.sh">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/paddle/run.py">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/data/corpus/train.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="174" column="7" lean-forward="true" selection-start-line="174" selection-start-column="7" selection-end-line="174" selection-end-column="7" />
+        <state relative-caret-position="336">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/evaluate.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/images/equation.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/vocab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/predict.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
-            <element signature="e#612#650#0" expanded="true" />
+            <element signature="e#56#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/raw/testset/zhidao.test.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="182">
-          <caret line="13" column="119" lean-forward="true" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/trainset/zhidao.train.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="266">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/trainset/search.train.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/devset/search.dev.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="252">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/baseline/DuReader/data/demo/devset/search.dev.json">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/data/download_dureader.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="462">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/MRC/models/DuReader/data/preprocessed/testset/zhidao.test.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="112">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="853" column="2" lean-forward="true" selection-start-line="853" selection-start-column="2" selection-end-line="853" selection-end-column="2" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="476">
+            <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/utils/dureader_eval.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/data/vocab/vocab.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet_dureader/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/screenshots/figure.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/screenshots/tensorboard.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/evaluate-v1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/download.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="315" column="35" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/prepro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/MRC/models/QANet-SQUAD/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="195" column="37" lean-forward="true" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
