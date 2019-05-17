@@ -329,6 +329,24 @@ python run_classifier.py \
   --learning_rate=2e-5 \
   --num_train_epochs=3.0 \
   --output_dir=/tmp/mrpc_output/
+
+
+
+python run_classifier.py \
+  --task_name=MRPC \
+  --do_train=true \
+  --do_eval=true \
+  --data_dir=$GLUE_DIR/MRPC \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --max_seq_length=128 \
+  --train_batch_size=16 \
+  --learning_rate=2e-5 \
+  --num_train_epochs=3.0 \
+  --output_dir=/tmp/mrpc_output/
+
+
 ```
 
 You should see output like this:
@@ -346,7 +364,7 @@ high variance in the Dev set accuracy, even when starting from the same
 pre-training checkpoint. If you re-run multiple times (making sure to point to
 different `output_dir`), you should see results between 84% and 88%.
 
-A few other pre-trained models are implemented off-the-shelf in
+A f`ew` other pre-trained models are implemented off-the-shelf in
 `run_classifier.py`, so it should be straightforward to follow those examples to
 use BERT for any single-sentence or sentence-pair classification task.
 
@@ -417,6 +435,7 @@ python run_squad.py \
   --max_seq_length=384 \
   --doc_stride=128 \
   --output_dir=/tmp/squad_base/
+
 ```
 
 The dev set predictions will be saved into a file called `predictions.json` in
@@ -994,3 +1013,217 @@ For help or issues using BERT, please submit a GitHub issue.
 For personal communication related to BERT, please contact Jacob Devlin
 (`jacobdevlin@google.com`), Ming-Wei Chang (`mingweichang@google.com`), or
 Kenton Lee (`kentonl@google.com`).
+
+
+
+
+ find ./  -type f -size +500M  -print0 | xargs -0 du -h
+
+
+
+#### Personal 
+** Please ensure using tensorflow >= 1.11 
+#####  squad1.1 
+``` shell  
+export BERT_BASE_DIR=/media/yinshuai/d8644f6c-5a97-4e12-909b-b61d2271b61c/data/bert_multi_cased_L-12_H-768_A-12
+export SQUAD_DIR=/media/yinshuai/d8644f6c-5a97-4e12-909b-b61d2271b61c/data/squad1.1/
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --do_train=True \
+  --train_file=$SQUAD_DIR/train-v1.1.json \
+  --do_predict=True \
+  --predict_file=$SQUAD_DIR/dev-v1.1.json \
+  --train_batch_size=6 \
+  --learning_rate=3e-5 \
+  --num_train_epochs=2.0 \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=/tmp/squad_base/
+
+final execute logs: 
+INFO:tensorflow:Restoring parameters from /tmp/squad_base/model.ckpt-18000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Processing example: 0
+INFO:tensorflow:Processing example: 1000
+INFO:tensorflow:Processing example: 2000
+INFO:tensorflow:Processing example: 3000
+INFO:tensorflow:Processing example: 4000
+INFO:tensorflow:Processing example: 5000
+INFO:tensorflow:Processing example: 6000
+INFO:tensorflow:Processing example: 7000
+INFO:tensorflow:Processing example: 8000
+INFO:tensorflow:Processing example: 9000
+INFO:tensorflow:Processing example: 10000
+INFO:tensorflow:prediction_loop marked as finished
+INFO:tensorflow:prediction_loop marked as finished
+INFO:tensorflow:Writing predictions to: /tmp/squad_base/predictions.json
+INFO:tensorflow:Writing nbest to: /tmp/squad_base/nbest_predictions.json
+``` 
+the train_batch_size is **６** for that we use NVIDIA 1080ti(11G RAM) to do train job 
+The dev set predictions will be saved into a file called `predictions.json` in
+the `output_dir`:
+
+```shell
+python $SQUAD_DIR/evaluate-v1.1.py $SQUAD_DIR/dev-v1.1.json  /tmp/squad_base/predictions.json
+```
+
+Our output like this:
+```shell
+{"exact_match": 79.35666982024598, "f1": 87.19698135875949}
+```
+You should see a result similar to the 88.5% reported in the paper for
+`BERT-Base`.
+
+> If you have access to a Cloud TPU, you can train with `BERT-Large`. Here is a
+set of hyperparameters (slightly different than the paper) which consistently
+obtain around 90.5%-91.0% F1 single-system trained only on SQuAD:
+
+
+Due to limited resources, we use a simpler `BERT-Base` to train squad2.0. 
+** Not successful 
+```shell
+export BERT_BASE_DIR=/media/yinshuai/d8644f6c-5a97-4e12-909b-b61d2271b61c/data/bert_multi_cased_L-12_H-768_A-12
+export SQUAD_DIR=/media/yinshuai/d8644f6c-5a97-4e12-909b-b61d2271b61c/data/squad2.0/
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR /vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --do_train=True \
+  --train_file=$SQUAD_DIR/train-v2.0.json \
+  --do_predict=True \
+  --predict_file=$SQUAD_DIR/dev-v2.0.json \
+  --train_batch_size=10 \
+  --learning_rate=3e-5 \
+  --num_train_epochs=2.0 \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=/tmp/squad_base_2.0/
+```
+
+For example, one random run with these parameters produces the following Dev
+scores:
+
+```shell
+{"f1": 90.87081895814865, "exact_match": 84.38978240302744}
+```
+
+
+
+
+
+
+### Output
+bert_tokens = []
+
+# Token map will be an int -> int mapping between the `orig_tokens` index and
+# the `bert_tokens` index.
+orig_to_tok_map = []
+
+tokenizer = tokenization.FullTokenizer(
+    vocab_file=vocab_file, do_lower_case=True)
+
+bert_tokens.append("[CLS]")
+for orig_token in orig_tokens:
+  orig_to_tok_map.append(len(bert_tokens))
+  bert_tokens.extend(tokenizer.tokenize(orig_token))
+bert_tokens.append("[SEP]")
+
+# bert_tokens == ["[CLS]", "john", "johan", "##son", "'", "s", "house", "[SEP]"]
+# orig_to_tok_map == [1, 2, 4, 6]
+```
+
+Now `orig_to_tok_map` can be used to project `labels` to the tokenized
+representation.
+
+There are common English tokenization schemes which will cause a slight mismatch
+between how BERT was pre-trained. For example, if your input tokenization splits
+off contractions like `do n't`, this will cause a mismatch. If it is possible to
+do so, you should pre-process your data to convert these back to raw-looking
+text, but if it's not possible, this mismatch is likely not a big deal.
+
+## Pre-training with BERT
+
+We are releasing code to do "masked LM" and "next sentence prediction" on an
+arbitrary text corpus. Note that this is *not* the exact code that was used for
+the paper (the original code was written in C++, and had some additional
+complexity), but this code does generate pre-training data as described in the
+paper.
+
+Here's how to run the data generation. The input is a plain text file, with one
+sentence per line. (It is important that these be actual sentences for the "next
+sentence prediction" task). Documents are delimited by empty lines. The output
+is a set of `tf.train.Example`s serialized into `TFRecord` file format.
+
+You can perform sentence segmentation with an off-the-shelf NLP toolkit such as
+[spaCy](https://spacy.io/). The `create_pretraining_data.py` script will
+concatenate segments until they reach the maximum sequence length to minimize
+computational waste from padding (see the script for more details). However, you
+may want to intentionally add a slight amount of noise to your input data (e.g.,
+randomly truncate 2% of input segments) to make it more robust to non-sentential
+input during fine-tuning.
+
+This script stores all of the examples for the entire input file in memory, so
+for large data files you should shard the input file and call the script
+multiple times. (You can pass in a file glob to `run_pretraining.py`, e.g.,
+`tf_examples.tf_record*`.)
+
+The `max_predictions_per_seq` is the maximum number of masked LM predictions per
+sequence. You should set this to around `max_seq_length` * `masked_lm_prob` (the
+script doesn't do that automatically because the exact value needs to be passed
+to both scripts).
+
+```shell
+python create_pretraining_data.py \
+  --input_file=./sample_text.txt \
+  --output_file=/tmp/tf_examples.tfrecord \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --do_lower_case=True \
+  --max_seq_length=128 \
+  --max_predictions_per_seq=20 \
+  --masked_lm_prob=0.15 \
+  --random_seed=12345 \
+  --dupe_factor=5
+```
+
+Here's how to run the pre-training. Do not include `init_checkpoint` if you are
+pre-training from scratch. The model configuration (including vocab size) is
+specified in `bert_config_file`. This demo code only pre-trains for a small
+number of steps (20), but in practice you will probably want to set
+`num_train_steps` to 10000 steps or more. The `max_seq_length` and
+`max_predictions_per_seq` parameters passed to `run_pretraining.py` must be the
+same as `create_pretraining_data.py`.
+
+```shell
+python run_pretraining.py \
+  --input_file=/tmp/tf_examples.tfrecord \
+  --output_dir=/tmp/pretraining_output \
+  --do_train=True \
+  --do_eval=True \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --train_batch_size=16 \
+  --max_seq_length=128 \
+  --max_predictions_per_seq=20 \
+  --num_train_steps=20 \
+  --num_warmup_steps=10 \
+  --learning_rate=2e-5
+```
+** train_batch_size set to 16 due to limit gpu resources ** 
+This will produce an output like this:
+
+```
+***** Eval results *****
+  global_step = 20
+  loss = 0.0979674
+  masked_lm_accuracy = 0.985479
+  masked_lm_loss = 0.0979328
+  next_sentence_accuracy = 1.0
+  next_sentence_loss = 3.45724e-05
+```
+
+Note that since our `sample_text.txt` file is very small, this example training
+will overfit that data in only a few steps and produce unrealistically high
+accuracy numbers.
