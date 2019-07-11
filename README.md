@@ -3,9 +3,6 @@ Language and Intelligent Technology Competition
 
 
 
-
-
-
 ### Raw Data 
 #### Important Fields  
 - question_type: "DESCRIPTION","YES OR NO", "Entity" etc 
@@ -918,5 +915,4 @@ cat data/raw/trainset/search.train.json | python utils/preprocess.py > data/prep
    "question_id":368334}
 
 
-```
-
+```Todo: 方案介绍与使用
